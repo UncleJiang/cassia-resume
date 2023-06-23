@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -82,7 +82,7 @@ content:
         quote: >
           Inspired by the "Moncage", different faces of a cube are used as filters, allowing multiple different scenes to be displayed within a single cube.
         description: | # this will include new lines to allow paragraphs
-          [![alt text](/images/monbox.png "Monbox Preview"){:class="bordered-image"}](https://unclejiang.github.io/monbox/dist/index.html){:target="_blank"}
+          [![alt text](./images/monbox.png "Monbox Preview"){:class="bordered-image"}](https://unclejiang.github.io/monbox/dist/index.html){:target="_blank"}
       - layout: left # left right 
         border:   # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -92,7 +92,7 @@ content:
         quote: >
           An immersive web timer that connects fantastical virtual scenes with reality through time.
         description: | # this will include new lines to allow paragraphs
-          [![alt text](/images/desert.png "Desert Preview"){:class="bordered-image"}](https://unclejiang.github.io/desert/dist/index.html){:target="_blank"}
+          [![alt text](./images/desert.png "Desert Preview"){:class="bordered-image"}](https://unclejiang.github.io/desert/dist/index.html){:target="_blank"}
   - title: Work Experience
     layout: list
     content:
