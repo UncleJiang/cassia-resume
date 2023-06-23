@@ -1,9 +1,11 @@
-@font-face {
-    font-family: "DotGothic";
-    src: url("../fonts/DotGothic16/DotGothic16-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: "DotGothic";
+//     src: url("../fonts/DotGothic16/DotGothic16-Regular.ttf") format("truetype");
+//     src: url();
+//     font-weight: normal;
+//     font-style: normal;
+// }
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 .scroll-container p {
     display: flex;
